@@ -76,6 +76,11 @@ nav a[aria-current="page"] {
   border-bottom-color: var(--accent);
 }
 
+nav .lang-switch {
+  margin-left: auto;
+  letter-spacing: 0.06em;
+}
+
 /* ---------- typography ---------- */
 
 h2 {
@@ -287,6 +292,7 @@ footer a { color: var(--muted); border-bottom-color: var(--rule); }
   ul.courses > li { flex-direction: column; align-items: flex-start; gap: 0.15rem; }
 
   h2 { margin-top: 2.25rem; }
+  nav .lang-switch { margin-left: 0; }
 }
 
 /* ---------- dark ---------- */
